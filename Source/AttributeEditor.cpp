@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 //
 
-#include "OverLib/AttributeEditor.hpp"
+#include "Urho3D-OverLib/AttributeEditor.hpp"
 
 #include <functional>
 

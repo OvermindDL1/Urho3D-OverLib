@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-#include "OverLib/OverLib.hpp"
+#include "Urho3D-OverLib/OverLib.hpp"
 
-#include "OverLib/StateManager.hpp"
+#include "Urho3D-OverLib/StateManager.hpp"
 
 #include <Urho3D/Core/Context.h>
 
