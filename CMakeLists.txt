@@ -21,7 +21,7 @@
 #
 
 # Define target name
-set (TARGET_NAME OverLib)
+set (TARGET_NAME Urho3D-OverLib)
 
 project (${TARGET_NAME})
 
