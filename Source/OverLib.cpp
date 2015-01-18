@@ -26,7 +26,7 @@
 
 #include <Urho3D/Core/Context.h>
 
-OverLib::OverLib::OverLib(Urho3D::Context* context)
+Urho3D::OverLib::OverLib::OverLib(Urho3D::Context* context)
     : _context(context)
 {
 }

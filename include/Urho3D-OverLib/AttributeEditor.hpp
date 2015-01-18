@@ -36,6 +36,9 @@ class Variant;
 class XMLFile;
 }
 
+namespace Urho3D
+{
+
 namespace OverLib
 {
 
@@ -56,6 +59,8 @@ Urho3D::SharedPtr<Urho3D::LineEdit> CreateAttributeLineEdit(Urho3D::Context* con
 
 void SetValue(Urho3D::UIElement* toElement, const Urho3D::Variant& fromValue);
 Urho3D::Variant GetValue(const Urho3D::Variant& toValueWithDefault, const Urho3D::UIElement* fromElement);
+
+}
 
 }
 

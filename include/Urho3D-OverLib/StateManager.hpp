@@ -27,6 +27,9 @@
 
 #include <memory>
 
+namespace Urho3D
+{
+
 namespace OverLib
 {
 
@@ -118,5 +121,7 @@ private:
 
     InternalState internalState_;
 };
+
+}
 
 }

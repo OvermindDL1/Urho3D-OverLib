@@ -10,7 +10,7 @@ Just git clone or copy this project in to your project and in your
 CMakeLists.txt file add a line of `add_subdirectory(Urho3D-OverLib)` then just add the
 library and headers to your project via the normal CMake way, such as in:
 ```cmake
-target_link_libraries (${TARGET_NAME} OverLib)
+target_link_libraries (${TARGET_NAME} Urho3D-OverLib)
 include_directories(${OverLib_SOURCE_DIR}/include)
 ```
 
@@ -29,7 +29,7 @@ made more generic as well.
 The OverLib class contains a few basic helpers, mostly designed for applications.
 It can either by multi-subclassed by your Application subclass such as in:
 ```cpp
-class URHO3D_API OverAssault_Application : public Urho3D::Application, public OverLib::OverLib
+class URHO3D_API OverAssault_Application : public Urho3D::Application, public Urho3D::OverLib::OverLib
 {
     // Urho3D Type Information System
     OBJECT(OverAssault_Application);

@@ -25,6 +25,9 @@
 #include <Urho3D/Core/Object.h>
 #include <Urho3D/Resource/ResourceCache.h>
 
+namespace Urho3D
+{
+
 namespace OverLib
 {
 
@@ -98,4 +101,6 @@ template <class T> void OverLib::OverLib::SendBackgroundLoadResource(Urho3D::Con
             cache->SendEvent(Urho3D::E_RESOURCEBACKGROUNDLOADED, eventData);
         }
     }
+}
+
 }
