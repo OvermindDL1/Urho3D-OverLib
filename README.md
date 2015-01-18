@@ -7,7 +7,7 @@ little-to-no overhead, and useful.  Pull requests are always welcome.
 
 ## How to use
 Just git clone or copy this project in to your project and in your
-CMakeLists.txt file add a line of `add_subdirectory(OverLib)` then just add the
+CMakeLists.txt file add a line of `add_subdirectory(Urho3D-OverLib)` then just add the
 library and headers to your project via the normal CMake way, such as in:
 ```cmake
 target_link_libraries (${TARGET_NAME} OverLib)
